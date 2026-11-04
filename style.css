@@ -1,0 +1,26 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FAF8F5;
+}
+
+.base-color {
+    color: #FAF8F5;
+}
+
+.main-color {
+    color: #4A3629;
+}
+
+.sub-color {
+    color: #E6DED4;
+}
+
+.accent-color {
+    color: #5F7D65;
+}
