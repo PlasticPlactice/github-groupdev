@@ -24,3 +24,8 @@ body {
 .accent-color {
     color: #5F7D65;
 }
+
+img{
+    width: 30%;
+    display: flex;
+}
