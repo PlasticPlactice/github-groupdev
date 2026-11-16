@@ -1,1 +1,47 @@
 @charset "UTF-8";
+
+:root {
+--base-color: #FAF8F5;
+--main-color: #4A3629;
+--sub-color: #E6DED4;
+--accent-color: #5F7D65;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: var(--base-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.section-header {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.odd-item {
+    background-color: var(--sub-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(74, 54, 41, 0.05);
+}
+
+span {
+    color: var(--accent-color);
+    font-weight: bold;
+    text-align: right;
+}
+
